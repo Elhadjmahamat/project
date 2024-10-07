@@ -542,38 +542,41 @@ ord.nmds.bray <- ordinate(ps.prop, method="NMDS", distance="bray")
 ```
 
     ## Run 0 stress 0.08043117 
-    ## Run 1 stress 0.08076337 
-    ## ... Procrustes: rmse 0.01050527  max resid 0.03233131 
-    ## Run 2 stress 0.1334791 
-    ## Run 3 stress 0.08076336 
-    ## ... Procrustes: rmse 0.01048088  max resid 0.03225211 
-    ## Run 4 stress 0.09477234 
-    ## Run 5 stress 0.1212044 
-    ## Run 6 stress 0.08616061 
-    ## Run 7 stress 0.08076338 
-    ## ... Procrustes: rmse 0.01053089  max resid 0.03241539 
-    ## Run 8 stress 0.08076338 
-    ## ... Procrustes: rmse 0.01051688  max resid 0.03236926 
-    ## Run 9 stress 0.1334791 
-    ## Run 10 stress 0.08076337 
-    ## ... Procrustes: rmse 0.01049158  max resid 0.03228688 
-    ## Run 11 stress 0.08616061 
-    ## Run 12 stress 0.08076339 
-    ## ... Procrustes: rmse 0.01054457  max resid 0.03246025 
-    ## Run 13 stress 0.08616061 
-    ## Run 14 stress 0.09477194 
-    ## Run 15 stress 0.1010632 
-    ## Run 16 stress 0.08076338 
-    ## ... Procrustes: rmse 0.01053634  max resid 0.03243315 
-    ## Run 17 stress 0.1228545 
+    ## Run 1 stress 0.1212044 
+    ## Run 2 stress 0.09477195 
+    ## Run 3 stress 0.08616061 
+    ## Run 4 stress 0.09477095 
+    ## Run 5 stress 0.08043117 
+    ## ... Procrustes: rmse 2.069015e-06  max resid 5.503803e-06 
+    ## ... Similar to previous best
+    ## Run 6 stress 0.09477217 
+    ## Run 7 stress 0.08076341 
+    ## ... Procrustes: rmse 0.01057162  max resid 0.03254831 
+    ## Run 8 stress 0.08076339 
+    ## ... Procrustes: rmse 0.01054267  max resid 0.03245411 
+    ## Run 9 stress 0.08043116 
+    ## ... New best solution
+    ## ... Procrustes: rmse 4.072327e-06  max resid 1.070415e-05 
+    ## ... Similar to previous best
+    ## Run 10 stress 0.08076339 
+    ## ... Procrustes: rmse 0.01055122  max resid 0.03247938 
+    ## Run 11 stress 0.08076343 
+    ## ... Procrustes: rmse 0.01059664  max resid 0.03262705 
+    ## Run 12 stress 0.08076338 
+    ## ... Procrustes: rmse 0.01049008  max resid 0.03227875 
+    ## Run 13 stress 0.0807634 
+    ## ... Procrustes: rmse 0.01057079  max resid 0.03254307 
+    ## Run 14 stress 0.08076339 
+    ## ... Procrustes: rmse 0.01055631  max resid 0.03249575 
+    ## Run 15 stress 0.08076337 
+    ## ... Procrustes: rmse 0.01052484  max resid 0.03239308 
+    ## Run 16 stress 0.08616061 
+    ## Run 17 stress 0.08616061 
     ## Run 18 stress 0.08076337 
-    ## ... Procrustes: rmse 0.01051493  max resid 0.03236335 
-    ## Run 19 stress 0.0947711 
-    ## Run 20 stress 0.08076338 
-    ## ... Procrustes: rmse 0.01053519  max resid 0.03242943 
-    ## *** Best solution was not repeated -- monoMDS stopping criteria:
-    ##     17: stress ratio > sratmax
-    ##      3: scale factor of the gradient < sfgrmin
+    ## ... Procrustes: rmse 0.01050243  max resid 0.03231999 
+    ## Run 19 stress 0.1010632 
+    ## Run 20 stress 0.08616061 
+    ## *** Best solution repeated 1 times
 
 ``` r
 plot_ordination(ps.prop, ord.nmds.bray, color="When", title="Bray NMDS")
